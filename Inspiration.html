@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Woke</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon"
+      type="image/png"
+      href="https://www.pngfind.com/pngs/m/453-4531594_icon-05-min-clip-art-shopping-bag-hd.png">
+
+      <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale = 1">
+      <title>CSS Flexbox</title>
+      <style>
+      .holdingcontainer{
+        width: 100%;
+        display: flex;
+        background: black;
+        box-sizing: border-box;
+        flex-direction: row;
+      }
+
+      .internalcontainerL{
+        width: : 30%;
+        background: white;
+        font-size: 12px;
+        font-family: times;
+        margin: 3px;
+      }
+
+      .internalcontainerM{
+        width: :30%;
+        background: white;
+        font-size: 12px;
+        font-family: times;
+        margin: 3px;
+      }
+
+      .internalcontainerR{
+        width: : 30%;
+        background: white;
+        font-size: 12px;
+        font-family: times;
+        margin: 3px;
+      }
+
+      @media screen and (max-width: 768px){
+        .holdingcontainer{
+          flex-direction: column-reverse;
+        }
+      }
+
+      #text {
+        width: 190px;
+        display: block;
+        margin: 0 auto;
+      }
+      </style>
+
+</head>
+  <body>
+
+    <!--this is the main content-->
+    <h1><a href="index.html">Woke</a></h1>
+    <nav>
+    <center>
+      <ul>
+        <li><a id="inspo" href="inspiration.html"> Inspiration </a></li>
+        <li><a href="sparetips.html"> Sparetips </a></li>
+        <li><a href="voresfavoritter.html"> Vores favoritter </a></li>
+        <li><a href="omos.html"> Om os </a></li>
+      </ul>
+    </center>
+    </nav>
+<center>
+
+  <ul>
+  <li><h2 id="omos">Inspiration</h2></li>
+    <li><img id="money" src="images/inspo.png" style="width:10" height="100"></li>
+    </center>
+  </ul>
+
+  </center>
+
+<center>
+  <p id="vier"> Vi er her for at inspirere dig. Vi forsøger at finde en blanding af det vi finder inspirerende, og hvad der har inspireret andre  denne måned. Vi ved hvor vigtig inspiration er, når man gerne vil udfordre og udfolde sin stil. Vi hjælper dig med at genopdage hvad allerede er i din garderobe, eller hvor nye, billige fund er at finde, så du kan genopgriske din garderobe. </p>
+</center>
+
+
+<div class="nyheder">
+  <center>
+    <h2 id="lad">Lad os inspirere dig</h2>
+  </center>
+</div>
+
+<div class="holdingcontainer">
+  <div class="internalcontainerL"> <center><h2 id="overskrift">H&M</h2></center>
+    <center> <img src="images/hm.png" alt="sometext" style="width:100" height="200"></center>
+<p id="text">Efteråret er her med de kolde temperature, og det betyder tid til strikhuer. H&M har et stort udvalg af flotte farver til lave priser.</p>
+    </div>
+
+  <div class="internalcontainerM"><center><h2 id="overskrift">Lag på lag</h2></center>
+    <center><img src="images/trøje.png" style="width:100" height="200"></center>
+    <p id="text">Se vores bedste tips tricks til at skabe lag på lag, der ser lækkert og stilet ud.</p></div>
+
+  <div class="internalcontainerR"> <center><h2 id="overskrift">Bestseller</h2></center>
+<center><img src="images/bestseller.png" style="width:100" height="200"></center>
+    <p id="text">Bestseller har fået en masse nyt til efteråret. Ser her hvordan vi sammensætter styles til de kommende kolde måneder.</p></div>
+</div>
+
+<div class="container">
+<div id="main">
+
+<!-- footer -->
+<footer id="footer">
+<div class="footer-indhold">
+  <nav>
+  <center>
+    <ul>
+      <li><a > Find os her </a></li>
+      <li></li><img id="insta" src="images/social.jpg" style="width:300px" height="auto">
+      <li><a href="#"> Tilmeld dig vores nyhedsbrev </a></li>
+      <li><a href="omos.html"> Om </a></li>
+    </ul>
+  </center>
+  </nav>
+</div>
+</footer>
+
+
+  </body>
+</html>

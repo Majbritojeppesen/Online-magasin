@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+}
+
+/*changes color on typographi*/
+h1 {
+  color: black;
+font-family: times;
+font-size: 55px;
+font-weight: 100;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 10px;
+line-height: 80px;
+}
+
+h2 {
+  padding-top: 30px;
+  font-weight: normal;
+}
+
+#lad {
+  font-weight: bold;
+  text-align:
+}
+
+p {
+  color: white;
+  background-color: black;
+  font-family: times;
+  font-size: 17px;
+  padding-top: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 20px;
+}
+
+
+.title {
+  color: green;
+}
+.index-intro p {
+  color:grey;
+}
+
+ul {
+
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+line-height: 50px;
+}
+
+ul li a{
+  display: block;
+font-size: 20px;
+font-family: times;
+color: white;
+padding: 0 20px;
+}
+
+ul li a:hover{
+color: white;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+.video {
+  padding-bottom: 30px;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.nyheder {
+  padding-top: 40px;
+  padding-bottom: 40px;
+font-family: times;
+  font-weight: bold;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+
+
+#container {
+   min-height: 100%;
+}
+
+#main {
+overflow: auto;
+padding-bottom: 100px;
+}
+
+#footer {
+  background-color: black;
+  position: absolute;
+  height: 100px;
+  margin-top: 100px;
+  clear: both;
+  font-family: times;
+  width: 100%;
+}
+
+#insta {
+padding-top:20px;
+}
+
+#omos {
+  font-size: 50px;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  padding-left: 50;
+}
+
+#favorit {
+  padding-top: 30px;
+}
+#money {
+  padding-top: 30px;
+}
+
+.billede {
+  float:left;
+  width: 32%;
+  padding: 5px;
+}
+
+.img-with-text {
+    text-align: justify;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+#text {
+  background-color: white;
+  color: black;
+  width: 30%;
+}
+
+#h {
+width: 232px;
+padding-left: 73px;
+padding-top: 30px;
+}
+
+.text {
+  width: 10px;
+  color: blue;
+}
+
+#overskrift {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#vier {
+  background-color: white;
+  color: black;
+  display:block;
+  width: 27%;
+  font-size: 20px;
+  text-align: left;
+}
+
+#inspo
+{
+  color:black;
+  background-color: lightgrey;
+}
+
+#spare {
+  color:black;
+  background-color: lightgrey;
+}
+
+#favo {
+  color:black;
+  background-color: lightgrey;
+}
+
+#nyhed {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#om {
+  color:black;
+  background-color: lightgrey;
+}
+
+h1 a {
+  color: black;
+}
+
+h2 a {
+  color: black;
+}
+
+p a {
+  color:black;
+  text-decoration: underline;
+}

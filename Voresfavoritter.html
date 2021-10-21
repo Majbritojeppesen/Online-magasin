@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Woke</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon"
+      type="image/png"
+      href="https://www.pngfind.com/pngs/m/453-4531594_icon-05-min-clip-art-shopping-bag-hd.png">
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <link rel="icon"
+          type="image/png"
+          href="https://www.pngfind.com/pngs/m/453-4531594_icon-05-min-clip-art-shopping-bag-hd.png">
+
+          <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale = 1">
+          <title>CSS Flexbox</title>
+          <style>
+          .holdingcontainer{
+            width: 100%;
+            display: flex;
+            background: black;
+            box-sizing: border-box;
+            flex-direction: row;
+          }
+
+          .internalcontainerL{
+            width: : 30%;
+            background: white;
+            font-size: 12px;
+            font-family: times;
+            margin: 3px;
+          }
+
+          .internalcontainerM{
+            width: :30%;
+            background: white;
+            font-size: 12px;
+            font-family: times;
+            margin: 3px;
+          }
+
+          .internalcontainerR{
+            width: : 30%;
+            background: white;
+            font-size: 12px;
+            font-family: times;
+            margin: 3px;
+          }
+
+          @media screen and (max-width: 768px){
+            .holdingcontainer{
+              flex-direction: column-reverse;
+            }
+          }
+
+          #text {
+            width: 190px;
+            display: block;
+            margin: 0 auto;
+          }
+          </style>
+
+</head>
+  <body>
+
+
+<!-- footer -->
+<div class="container">
+  <div id="main">
+    <!--this is the main content-->
+    <h1><a href="index.html">Woke</a></h1>
+    <nav>
+    <center>
+      <ul>
+        <li><a href="inspiration.html"> Inspiration </a></li>
+        <li><a href="sparetips.html"> Sparetips </a></li>
+        <li><a id="favo" href="voresfavoritter.html"> Vores favoritter </a></li>
+        <li><a href="omos.html"> Om os </a></li>
+      </ul>
+    </center>
+    </nav>
+<center>
+
+<ul>
+<li><h2 id="omos">Vores favoritter</h2></li>
+  <li><img id="favorit" src="images/favorit.png" style="width:10" height="100"></li>
+  </center>
+</ul>
+
+<center>
+  <p id="vier"> Tjek det ud! - de seneste nyheder. Det kan være alt fra vores favorit tilbud denne måned, eller en speciel butik der har gjort sig ekstra positivt bemærket. </p>
+</center>
+
+
+<div class="nyheder">
+  <center>
+    <h2 id="lad">Vores seneste favoritter</h2>
+  </center>
+</div>
+
+<div class="holdingcontainer">
+  <div class="internalcontainerL"> <center><h2 id="overskrift">Støvler</h2></center>
+    <center> <img src="images/sko.png" alt="sometext" style="width:100" height="200"></center>
+<p id="text">ASOS har et stort udvalg af
+billige støvler, perfekte til
+efteråret. <a href="https://www.asos.com/dk/kvinder/sko/stoevler/cat/?cid=6455&nlid=ww|sko|shop+efter+produkt|st%C3%B8vler">Tjek det ud her! </a></p>
+    </div>
+  <div class="internalcontainerM"><center><h2 id="overskrift">Prag</h2></center>
+    <center><img src="images/prag.png" style="width:100" height="200"></center>
+    <p id="text">PRAG i Aarhus har formidable vintage varer for billige penge. Fordelen ved vintage er, at det er varer der allerede er sorteret. Derfor er der højere kvalitet på varerne end i normale genbrugsbutikker.</p></div>
+
+  <div class="internalcontainerR"> <center><h2 id="overskrift">Striktrøjer</h2></center>
+<center><img src="images/klo.png" style="width:100" height="200"></center>
+    <p id="text">Her er en samling af vores favorit striktrøjer fra diverse butikker, i forskellige prisklasser.</p></div>
+</div>
+
+<div class="container">
+<div id="main">
+
+<footer id="footer">
+<div class="footer-indhold">
+  <nav>
+  <center>
+    <ul>
+      <li><a > Find os her </a></li>
+      <li></li><img id="insta" src="images/social.jpg" style="width:300px" height="auto">
+      <li><a href="#"> Tilmeld dig vores nyhedsbrev </a></li>
+      <li><a href="omos.html"> Om </a></li>
+    </ul>
+  </center>
+  </nav>
+</div>
+</footer>
+
+
+  </body>
+</html>
